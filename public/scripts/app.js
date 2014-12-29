@@ -6,6 +6,10 @@ myApp.config(function($routeProvider) {
             templateUrl: '../views/home.html',
             controller: 'MainCtrl'
         }).
+        when('/golf', {
+            templateUrl: '../views/golf.html',
+            controller: 'GolfCtrl'
+        }).
         otherwise({
             redirectTo: '/'
         });
