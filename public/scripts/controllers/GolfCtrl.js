@@ -1,7 +1,5 @@
 angular.module('myApp').controller('GolfCtrl', function($scope) {
 
-
-
     $scope.players = [];
 
     $scope.addPlayer = function() {
